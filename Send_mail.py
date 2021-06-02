@@ -7,12 +7,12 @@ class Send():
 
         def GiveMail(self, mail):
 
-                user = 'sharifi.stockreport@gmail.com'
-                passwd = 'Erfan123@#$%'       
+                user = 'Yourmail@gmail.com'
+                passwd = 'Yourpassword'       
                 smtpSer = 'smtp.gmail.com'      
                 smtpPort = 465      
 
-                # to = 'mrsharifi.it@gmail.com'
+                
                 to = 'e.sharify@gmail.com'
                 subject = 'Daily Confirmation'
                 msgBody = """
